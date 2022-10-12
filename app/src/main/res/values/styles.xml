@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Popup" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="GreenAppTheme" parent="android:ThemeOverlay.Material.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/darkBlue</item>
+        <item name="colorPrimaryVariant">@color/darkBlue</item>
+        <item name="colorSecondaryVariant">@color/darkBlue</item>
+        <item name="colorPrimarySurface">@color/darkBlue</item>
+        <item name="colorOnSecondary">@color/darkBlue</item>
+        <item name="colorOnPrimary">@color/darkBlue</item>
+        <item name="colorError">@color/darkBlue</item>
+        <item name="colorOnBackground">@color/darkBlue</item>
+        <item name="android:textColorHighlight">@color/darkBlue</item>
+        <item name="android:colorButtonNormal">@color/colorLightGrey</item>
+        <item name="android:colorControlNormal">@color/colorLightGrey</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/colorLightGrey</item>
+        <item name="android:textColorTertiary">@color/white</item>
+    </style>
+
+
+<!--    <style name="CalendarTheme" parent="android:Widget.CalendarView">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/darkishRed</item>-->
+<!--        <item name="colorPrimaryDark">@color/lightOrange</item>-->
+<!--        <item name="colorAccent">@color/lightGreen</item>-->
+<!--    </style>-->
+
+    <style name="CalenderViewCustom" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">#003ACD</item>
+    </style>
+
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">#3BA8FF</item>
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+    <style name="PreferenceScreen" parent="AppTheme">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorTertiary">@color/white</item>
+        <item name="android:colorAccent">@color/white</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColorHighlight">@color/white</item>
+        <item name="android:switchPadding">@color/colorGrey</item>
+    </style>
+    <style name="splashScreenTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/on_start</item>
+    </style>
+    <style name="BlackTheme" parent="android:Theme.DeviceDefault.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+<!--        <item name="colorPrimaryVariant">@color/black</item>-->
+<!--        <item name="colorSecondaryVariant">@color/black</item>-->
+<!--        <item name="colorPrimarySurface">@color/black</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+<!--        <item name="colorOnPrimary">@color/black</item>-->
+<!--        <item name="colorError">@color/black</item>-->
+<!--        <item name="colorOnBackground">@color/black</item>-->
+<!--        <item name="android:textColorHighlight">@color/black</item>-->
+<!--        <item name="android:colorButtonNormal">@color/black</item>-->
+<!--        <item name="android:colorControlNormal">@color/black</item>-->
+<!--        <item name="android:textColor">@color/black</item>-->
+<!--        <item name="android:textColorSecondary">@color/black</item>-->
+<!--        <item name="android:textColorTertiary">@color/black</item>-->
+    </style>
+
+    <style name="BlackTheme2" parent="android:ThemeOverlay.Material.Dark.ActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorPrimarySurface">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorError">@color/black</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="android:textColorHighlight">@color/black</item>
+        <item name="android:colorButtonNormal">@color/black</item>
+        <item name="android:colorControlNormal">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:textColorTertiary">@color/black</item>
+    </style>
+</resources>

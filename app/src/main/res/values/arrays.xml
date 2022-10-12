@@ -1,0 +1,73 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Default</item>
+        <item>Nature</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Food</item>
+        <item>Wildlife</item>
+        <item>Macro</item>
+        <item>Fashion</item>
+        <item>City</item>
+        <item>Sky</item>
+        <item>Architecture</item>
+        <item>Flowers</item>
+        <item>Dogs</item>
+        <item>Cats</item>
+        <item>Birds</item>
+        <item>Cars</item>
+        <item>Fruits</item>
+        <item>Lamps</item>
+        <item>Wood</item>
+        <item>Music</item>
+        <item>Water</item>
+        <item>Leaves</item>
+        <item>Sun</item>
+        <item>Statues</item>
+
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>Default</item>
+        <item>Nature</item>
+        <item>Sports</item>
+        <item>Technology</item>
+        <item>Food</item>
+        <item>Wildlife</item>
+        <item>Macro</item>
+        <item>Fashion</item>
+        <item>City</item>
+        <item>Sky</item>
+        <item>Architecture</item>
+        <item>Flowers</item>
+        <item>Dogs</item>
+        <item>Cats</item>
+        <item>Birds</item>
+        <item>Cars</item>
+        <item>Fruits</item>
+        <item>Lamps</item>
+        <item>Wood</item>
+        <item>Music</item>
+        <item>Water</item>
+        <item>Leaves</item>
+        <item>Sun</item>
+        <item>Statues</item>
+    </string-array>
+
+    <string-array name="themColors">
+        <item>Dark Red</item>
+        <item>Red</item>
+        <item>Dark Orange</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Dark Green</item>
+        <item>Green</item>
+        <item>Dark Blue</item>
+        <item>Blue</item>
+        <item>Dark Purple</item>
+        <item>Purple</item>
+        <item>Dark Pink</item>
+        <item>Pink</item>
+    </string-array>
+</resources>

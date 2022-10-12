@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    android:id="@+id/nav_checklist"
+    android:icon="@drawable/ic_round_check_24"
+    android:title="Checklist"/>
+    <item
+        android:id="@+id/nav_wishlist"
+        android:icon="@drawable/ic_round_calendar_today_24"
+        android:title="Calendar"/>
+    <item
+        android:id="@+id/nav_alarm"
+        android:icon="@drawable/ic_round_delete_24"
+        android:title="Completed"/>
+</menu>

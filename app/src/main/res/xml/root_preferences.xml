@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Daily Wallpaper">
+        <SwitchPreferenceCompat
+            app:key="changeWallOnOrOff"
+            app:title="Midnight Wallpaper Changer"
+            app:summaryOn="Wallpaper Changer is ON"
+            app:summaryOff="Wallpaper Changer is OFF"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Date/Time Format">
+        <SwitchPreferenceCompat
+            app:key="onOrOff"
+            app:title="European Date Format"
+            app:summaryOn="Your date will be shown as \nDD/MM/YYYY"
+            app:summaryOff="Your date will be shown as \nMM/DD/YYYY"/>
+        <SwitchPreferenceCompat
+            app:key="onOrOffTime"
+            app:title="24 Hour Format"
+            app:summaryOn="Your time will be shown in the 24 hour format"
+            app:summaryOff="Your time will be shown in the 12 hour format"/>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="App Theme">
+        <SwitchPreferenceCompat
+            app:key="onOrOffAppTheme"
+            app:title="Dark Mode"
+            app:summaryOn="Dark Mode is ON"
+            app:summaryOff="Dark Mode is OFF"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Item Size">
+        <SwitchPreferenceCompat
+            app:key="onOrOffSize"
+            app:title="Size Of Single Item"
+            app:summaryOn="The list items will be small sized"
+            app:summaryOff="The list items will be large sized"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="About">
+        <PreferenceScreen
+            app:title="Have Feedback?"
+            android:summary="Email the developer about any bugs you find or features you want"
+            android:key="email">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mailto:newdayapplication@gmail.com"
+                />
+        </PreferenceScreen>
+        <PreferenceScreen
+            app:title="Like the app?"
+            android:summary="Review it on the Play Store!"
+            android:key="review">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.todolist.newday"
+                />
+        </PreferenceScreen>
+<!--        <Preference-->
+<!--            app:title="LOVE the app?"-->
+<!--            android:summary="If you do so desire, donate some spare change to support the developer"-->
+<!--            android:key="donation"-->
+<!--            />-->
+
+    </PreferenceCategory>
+</PreferenceScreen>

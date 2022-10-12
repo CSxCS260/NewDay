@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dred"
+        android:icon="@drawable/rounded_corner_dred"
+        android:title="Dark Red"/>
+    <item
+        android:id="@+id/red"
+        android:icon="@drawable/rounded_corner_red"
+        android:title="Red"/>
+    <item
+        android:id="@+id/dorange"
+        android:icon="@drawable/rounded_corner_dorange"
+        android:title="Dark Orange"/>
+    <item
+        android:id="@+id/orange"
+        android:icon="@drawable/rounded_corner_orange"
+        android:title="Orange"/>
+    <item
+        android:id="@+id/yellow"
+        android:icon="@drawable/rounded_corner_yellow"
+        android:title="Yellow"/>
+    <item
+        android:id="@+id/dgreen"
+        android:icon="@drawable/rounded_corner_dgreen"
+        android:title="Dark Green"/>
+    <item
+        android:id="@+id/green"
+        android:icon="@drawable/rounded_corner_green"
+        android:title="Green"/>
+    <item
+        android:id="@+id/dblue"
+        android:icon="@drawable/rounded_corner_dblue"
+        android:title="Dark Blue"/>
+    <item
+        android:id="@+id/blue"
+        android:icon="@drawable/rounded_corner_blue"
+        android:title="Blue"/>
+    <item
+        android:id="@+id/dpurple"
+        android:icon="@drawable/rounded_corner_dpurple"
+        android:title="Dark Purple"/>
+    <item
+        android:id="@+id/purple"
+        android:icon="@drawable/rounded_corner_purple"
+        android:title="Purple"/>
+    <item
+        android:id="@+id/dpink"
+        android:icon="@drawable/rounded_corner_dpink"
+        android:title="Dark Pink"/>
+    <item
+        android:id="@+id/pink"
+        android:icon="@drawable/rounded_corner_pink"
+        android:title="Pink"/>
+</menu>
